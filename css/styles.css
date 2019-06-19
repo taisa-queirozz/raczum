@@ -22,6 +22,9 @@ body {
 .navbar-nav > li {
   list-style: none; }
 
+.navbar-expand-md .navbar-nav .nav-link {
+  color: #fff; }
+
 .navbar-brand {
   display: inline-block;
   padding-top: .3125rem;
@@ -203,6 +206,10 @@ body {
   display: inline-block;
   vertical-align: middle; }
 
+.footer_links_ {
+  margin: 0 auto;
+  display: block; }
+
 .footer-links-color {
   background: #3c3c3c; }
 
@@ -220,7 +227,8 @@ body {
   display: block;
   color: #fff;
   font-size: 12px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  text-decoration: none; }
 
 .footer_social {
   padding: 25px 0;
@@ -232,13 +240,87 @@ body {
   margin-top: 5px; }
 
 .footer_social_icon a {
-  float: left; }
+  float: left;
+  font-size: 30px; }
 
 .footer_social_icon i {
   color: #52636a;
-  margin: 0 15px;
+  margin: 0 30px;
   transition: .5s; }
+  .footer_social_icon i:hover {
+    color: #ff0035; }
 
 .footer_social_text {
   color: #fff;
   font-size: 11px; }
+
+.fa-heart {
+  color: #ff0035; }
+
+.footer_copyright {
+  background: #1d1d1d; }
+
+.footer_copyright_text {
+  padding: 10px 15px; }
+
+.footer_copyright_link {
+  text-decoration: none !important;
+  font-size: inherit;
+  display: contents;
+  color: #fff; }
+
+.footer_copyright p {
+  font-family: 'Gotham';
+  font-size: .6rem;
+  text-align: center;
+  margin: 0;
+  color: #fff; }
+
+@media (max-width: 992px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .title-sec {
+    font-size: 22px; }
+  .box-title {
+    font-size: 12px; }
+  .box-price {
+    font-size: 16px; }
+  .btn {
+    font-size: 12px; }
+  .category {
+    font-size: 16px; }
+  .post-title {
+    font-size: 15px; }
+  .post-signature {
+    font-size: 8px; }
+  .post-sumarry {
+    font-size: 12px; }
+  .post-more {
+    font-size: 12px; }
+  .newsletter-text {
+    font-size: 14px; }
+  .footer-links-color {
+    text-align: center;
+    margin: 0 auto;
+    display: block; } }
+
+@media (max-width: 768px) {
+  .box {
+    padding-bottom: 40px;
+    max-width: 300px;
+    margin: 0 auto; }
+  .post {
+    max-width: 300px;
+    margin: 0 auto; }
+  .footer_social_logo {
+    display: block;
+    text-align: center; } }
+
+@media (max-width: 580px) {
+  .newsletter-form input[type=email], .newsletter-form input[type=text] {
+    width: 100%;
+    margin-bottom: 15px; }
+  .newsletter-form button[type=submit] {
+    width: 100%; } }
