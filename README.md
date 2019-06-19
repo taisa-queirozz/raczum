@@ -1,6 +1,3 @@
-# raczum
-teste raczum
-
 # Project Title
 
 Teste Raczum
@@ -14,11 +11,12 @@ Este é um teste feito para vaga de front-end, utilizando HTML/CSS/JS
 
 Instalar dependências
 
-
+```
 npm install
-
+```
 
 Rodar projeto
 
-
+```
 npm start
+```
