@@ -28,7 +28,8 @@ body {
   color: #9e9b9b; }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
-  margin: 0 20px; }
+  margin: 0 20px;
+  outline: none; }
 
 .box-video {
   margin-top: 40px;
