@@ -2,8 +2,12 @@ body {
   padding-top: 50px;
   font-family: 'Montserrat', sans-serif; }
 
-.carrousel {
+.carousel {
   margin-top: 29px; }
+
+.carousel .item {
+  height: 390px;
+  background-position: center; }
 
 .divisor {
   padding-bottom: 55px;
