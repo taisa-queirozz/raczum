@@ -9,6 +9,9 @@ body {
   height: 390px;
   background-position: center; }
 
+.item-vedeo {
+  margin: 40px; }
+
 .divisor {
   padding-bottom: 55px;
   padding-top: 55px; }
