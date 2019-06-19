@@ -403,7 +403,9 @@ body{
   padding-bottom:15px;
   text-decoration:none;
 
-    
+    &:hover{
+      color:#ff0035;
+    }
 }
 
 .footer_social_icons{

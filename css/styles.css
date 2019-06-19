@@ -329,6 +329,8 @@ body {
   font-size: 12px;
   padding-bottom: 15px;
   text-decoration: none; }
+  .footer-links a:hover {
+    color: #ff0035; }
 
 .footer_social {
   padding: 25px 0;
