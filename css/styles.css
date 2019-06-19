@@ -340,7 +340,6 @@ body {
 
 .footer_social_icon i {
   color: #52636a;
-  margin: 0 30px;
   transition: .5s; }
   .footer_social_icon i:hover {
     color: #ff0035; }
