@@ -19,6 +19,13 @@ body {
   color: #9e9b9b;
   position: absolute; }
 
+.owl-theme .owl-nav:hover {
+  background: none; }
+
+.carousel .owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+  color: #9e9b9b; }
+
 .box-video {
   margin-top: 40px;
   background-color: #fff; }
