@@ -20,6 +20,14 @@ body{
   margin:40px;
 }
 
+.owl-theme .owl-nav {
+  text-align: right;
+  font-size: 43px;
+  margin-right: 130px;
+  color: #9e9b9b;
+}
+
+
 .box-video{
   margin-top:40px;
   background-color: #fff;
@@ -92,9 +100,14 @@ body{
   text-decoration: none;
 }
 
+.navigation{
+  background: #ffc34b;
+}
 
-
-
+.navigation li{
+  color:#fff;
+  font-size:11px; 
+}
 
 
 
