@@ -30,7 +30,7 @@ body {
   margin-top: 40px;
   background-color: #fff;
   position: relative;
-  height: 315px; }
+  height: 316px; }
 
 .box-video img {
   padding: 10px;
@@ -50,19 +50,22 @@ body {
   font-weight: 500;
   padding-left: 10px; }
 
-.btn-video {
+.btn.btn-video {
+  position: absolute;
+  bottom: 0; }
+
+.btn {
   color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   background: #ff0035;
   border-radius: 0;
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%; }
-  .btn-video span {
+  .btn span {
     position: relative;
     z-index: 2; }
-  .btn-video:before {
+  .btn:before {
     content: "";
     width: 0;
     height: 108%;
@@ -74,10 +77,10 @@ body {
     margin: 0;
     transition: width .3s ease-in;
     z-index: 1; }
-  .btn-video:hover {
+  .btn:hover {
     background: #e60937;
     color: #fff; }
-    .btn-video:hover:before {
+    .btn:hover:before {
       width: 101%; }
 
 .box-video-actions i {
