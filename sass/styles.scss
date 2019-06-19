@@ -26,6 +26,7 @@ body{
   margin-right: 130px;
   color: #9e9b9b;
   position: absolute;
+  bottom:-100px;
 }
 .owl-theme .owl-nav:hover{
   background: none;
@@ -34,6 +35,10 @@ body{
 .carousel .owl-theme .owl-nav [class*=owl-]:hover{
   background: none;
   color:#9e9b9b
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+  margin:0 20px;
 }
 
 .box-video{
