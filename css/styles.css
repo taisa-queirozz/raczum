@@ -2,6 +2,9 @@ body {
   padding-top: 50px;
   font-family: 'Montserrat', sans-serif; }
 
+.carrousel {
+  margin-top: 29px; }
+
 .divisor {
   padding-bottom: 55px;
   padding-top: 55px; }
