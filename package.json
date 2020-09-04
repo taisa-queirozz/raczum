@@ -2,7 +2,7 @@
   "name": "RacZum",
   "version": "0.1.0",
   "dependencies": {
-    "node-sass": "4.11.0"
+    "node-sass": "4.13.1"
   },
   "scripts": {
     "start": "node-sass --watch sass -o css"
